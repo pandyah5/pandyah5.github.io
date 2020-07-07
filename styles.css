@@ -1,0 +1,737 @@
+/* -------------General-------------- */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* -------------Introduction-------------- */
+
+.Intro {
+    background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    padding: 200 px;
+    height: 790px;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+.Intro header ol {
+    margin-top: 0
+}
+
+.Intro header{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    height: 80px;
+    align-items: center !important;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 13vw;
+}
+.Intro ul {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-style: outset;
+    border-width: 6px;
+    padding-left: 0px;
+}
+
+
+#github {
+    margin-right: 49vw;
+    padding-right: 20px;
+}
+#linkedin {
+    margin-left: 42vw;
+}
+
+header a{
+    margin: 0px;
+    width: 0px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@media only screen and (max-width: 1400px) {
+    .Intro {
+        background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+        background-color: black;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw auto;
+    }
+    .Intro header{
+        font-size: 5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 15vw;
+        padding-top: 10vw;
+    }
+    .Intro header ol {
+        margin-top: 20px;
+    }
+    #github {
+        margin-right: 25vw;
+        padding-right: 20px;
+    }
+    #linkedin {
+        margin-left: 30vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Intro {
+        background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+        background-color: black;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw auto;
+    }
+    .Intro header{
+        font-size: 4vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-bottom: 45vw;
+        padding-top: 30vw;
+    }
+    .Intro header ol {
+        margin-top: 20px;
+    }
+    #github {
+        margin-right: 25vw;
+        padding-right: 20px;
+    }
+    #linkedin {
+        margin-left: 30vw;
+    }
+}
+
+/* -------------About Me-------------- */
+.whoIam {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1500px 2000px;
+    padding-left: 90px;
+    color: white;
+    font-size: 21px;
+    line-height: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 1400px) {
+    .whoIam {
+        padding-left: 0;
+        font-size: 4vw;
+    }
+    .whoIam li{
+        background-color: gray;
+        opacity: 0.7;
+        margin: 20px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .whoIam ol{
+        padding-left: 1vw;
+        background-image: url("./Images/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
+        background-size: 100% auto;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        background-attachment: fixed;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .whoIam {
+        padding-left: 0;
+        font-size: 4vw;
+    }
+    .whoIam li{
+        /* border-bottom: 2px solid silver; */
+        background-color: gray;
+        opacity: 0.7;
+        margin: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .whoIam ol{
+        padding-left: 1vw;
+        background-image: url("./Images/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
+        background-size: 100% auto;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        background-attachment: fixed;
+    }
+}
+
+.whoIam h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+    margin: 0px;
+}
+.whoIam .IntroPara{
+    text-align: center;
+    font-size: 22px;
+}
+.whoIam .IntroPara img{
+    padding: 0;
+}
+
+
+.whoIam li{
+    list-style-type: none;
+    align-content: left;
+}
+
+/* -------------Additional Links-------------- */
+
+.academic {
+    background-color: rgb(39,39,39);
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+}
+.academic h1 {
+    font-size: 7vw;
+    font-family: serif;
+    color: moccasin;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.academic_list {
+    padding-left: 20px;
+    color: white;
+    font-size: 1.5vw;
+    line-height: 70px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 20px;
+}
+.academic_list td{
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+.academic_list .date {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#back {
+    padding: 20px;
+    border: 6px;
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: white;
+    color: black;
+    background-color: moccasin;
+    margin-left: 740px;
+    text-align: center;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .academic h1 {
+        font-size: 8vw;
+        font-family: serif;
+        color: moccasin;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .academic {
+        background-image: url("./Images/fred-kearney-sAgXI-QXF1o-unsplash1.jpg");
+        background-color: rgb(39,39,39);
+        background-size: 100% auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-bottom: 100px;
+    }
+    .academic #Acad_img {
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .academic_list {
+        padding-left: 0;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .academic_list td{
+        padding-left: 10px;
+        margin-bottom: 50px;
+        padding-right: 10px;
+        font-size: 4vw;
+        margin: 2px;
+        background-color: rgb(39,39,39);
+        border-top: 2px ridge white;
+        opacity: 0.6;
+    }
+    #back{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%
+        text-align: center;
+    }
+}
+
+.Message h1 {
+    font-size: 10vw;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.Certificate {
+    background-image: url("./Images/IMG_3857.jpg");
+    background-attachment: fixed;
+    background-size: 100vw 120vh;
+}
+.Certificate blockquote{
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 4.5vw;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom: 100px;
+}
+
+.Certificate .focus{
+    color: cyan;
+}
+.Certificate h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+.Certificate p{
+    background-color: black;
+    opacity: 0.8;
+    padding: 10px;
+    height: 252px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 35px;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+}
+.Certificate img{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.Certificate img:hover {
+    transform: scale(1.25);
+}
+
+.Certificate h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .Certificate h3 {
+        font-size: 5vw;
+    }
+    .Certificate p{
+        background-color: black;
+        opacity: 0.8;
+        padding: 10px;
+        height: 252px;
+        margin-top: 120px;
+        padding-bottom: 85px;
+        font-size: 4.5vw;
+    }
+    .Certificate blockquote{
+        font-size: 5vw;
+        margin-bottom: 130px;
+    }
+    .Message h1 {
+        padding-top: 10px;
+        font-size: 12vw;
+        margin-bottom: 100px;
+        color: white;
+    }
+    .Certificate h2{
+        font-size: 8vw;
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .Certificate img{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        margin-left: 5%;
+        display:block;
+        margin-right: 10%;
+        width: 80%;
+        height: 85%;
+    }
+    .Certificate {
+        background-image: url("./Images/IMG-20200301-WA0016.jpg");
+        background-color: black;
+        background-attachment: fixed;
+        background-size: 100vw auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/* -------------Skill Set-------------- */
+.Skills {
+    background-image: url("./Images/ali-yahya-gPuAZZLAsqk-unsplash1.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+.Skills h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+    color: white;
+}
+.Skills h3{
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+
+.Skills .skill_list {
+    margin-left: 15vw;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+@media only screen and (max-width: 1400px) {
+    .Skills{
+        background-attachment: fixed;
+        background-size: 100vw auto;
+        background-position: bottom;
+    }
+    .Skills .skill_list {
+        line-height: 70px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Skills{
+        background-attachment: fixed;
+        background-size: 100vw auto;
+        background-position: bottom;
+    }
+    .Skills .skill_list {
+        margin-left: 10vw;
+        color: white;
+        font-size: 5vw;
+        line-height: 50px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+}
+
+/* -------------Personal Projects-------------- */
+
+.projects {
+    background-color: black;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.projects {
+    background-image: url("./Images/reza-namdari-ZgZsKFnSbEA-unsplash.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw auto;
+    padding-bottom: 2px;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+    margin: 0px;
+}
+.projects blockquote{
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 50px;
+    font-family:monospace;
+}
+.projects p{
+    color: white;
+    font-size: 22px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: justify;
+    padding-right: 10px;
+
+}
+.projects img{
+    padding-left: 50px;
+    padding-right: 40px;
+    border-radius: 25%;
+}
+@media only screen and (max-width: 1400px) {
+    .projects img{
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        margin-left: 5vw;
+        margin-right: 10vw;
+        border-radius: 0%;
+        padding-bottom: 20px;
+        align-content: center;
+    }
+    .projects p{
+        padding: 10px;
+        background-color: black;
+        opacity: 0.6;
+        font-size: 4.2vw;
+    }
+    .projects {
+        background-image: url("./Images/yash-menghani-ejLp_lrQvyI-unsplash.jpg");
+        background-attachment: fixed;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw auto;
+        padding-bottom: 2px;
+    }
+}
+#Black_space {
+    background-color: black;
+}
+
+/* -------------Contact-------------- */
+
+.contacts {
+    color: white;
+    background-image: url("./Images/giorgio-trovato-_geAgtjqLzY-unsplash.jpg");
+    background-size: 100vw, auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.contacts h2{
+    margin-top: 0px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.contacts p {
+    text-align: center;
+    font-size: 26px;
+    background-color: black;
+    opacity: 0.9;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom: 100px;
+}
+.contacts input {
+    padding: 20px;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 8px;
+    border-width: 6px;
+    border-color: gray;
+    margin-top: 20px;
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+}
+.contacts #name {
+    padding-right: 5vw;
+    width: 18vw;
+}
+
+.contacts #email {
+    width: 18vw;
+    margin-left: 2.5vw;
+}
+
+.contacts #subject {
+    width: 600px;
+}
+.contacts #message {
+    width: 600px;
+}
+.contacts #submit {
+    margin-left: 700px;
+    padding: 20px;
+    font-size: 28px;
+    background-color: black;
+    border-style: outset;
+    border-width: 6px;
+    border-color: white;
+    border-radius: 25%;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .contacts h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: black;
+        opacity: 0.8;
+    }
+    .contacts {
+        background-image: url("./Images/lilibeth-bustos-linares-xHpy6nS7z1A-unsplash.jpg");
+        background-size: 100vw auto;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .contacts p{
+        background-color: black;
+        opacity: 0.8;
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+    .contacts #nametag {
+        width: 70vw;
+        margin-left: 9% !important;
+        margin-right: 15% !important;
+        text-align: center;
+    }
+
+    .contacts #email {
+        width: 70vw;
+        margin-left: 9% !important;
+        margin-right: 15% !important;
+        text-align: center;
+    }
+
+    .contacts #subject {
+        width: 70vw;
+        margin-left: 9% !important;
+        margin-right: 15% !important;
+        text-align: center;
+    }
+    .contacts #message {
+        width: 70vw;
+        margin-left: 9% !important;
+        margin-right: 15% !important;
+        text-align: center;
+    }
+    .contacts input {
+        padding: 20px;
+        opacity: 0.8;
+        margin-top: 20px;
+        color: black;
+    }
+    .contacts #submit {
+        margin-left: 40vw;
+        padding: 2vw;
+        font-size: 4.2vw;
+        background-color: black;
+        border-style: outset;
+        border-width: 0.8vw;
+        border-color: white;
+        border-radius: 25%;
+        color: white;
+    }
+    #credits{
+        background-color: black;
+        opacity: 0.7;
+        padding: 8px !important;
+        font-size: 3.5vw !important;
+        width: 80% !important;
+        margin-top: 19% !important;
+        margin-bottom: 2% !important;
+    }
+}
+
+/* -------------Header Links-------------- */
+header li {
+    margin: 20px;
+    display: inline-block;
+}
+
+header ul {
+    text-align: center;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* -------------Footer-------------- */
+footer {
+    background-color: HoneyDew;
+    color: black;
+    padding: 30px;
+    align-content: center;
+}
