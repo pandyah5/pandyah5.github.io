@@ -16,7 +16,8 @@ html {
 body {
     padding: 0px;
     margin: 0px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Palatino Linotype", "Book Antiq
+        ua", Palatino, serif;
 }
 
 a {
@@ -322,7 +323,7 @@ header a{
 }
 
 .Certificate {
-    background-image: url("./Images1/IMG_3857.jpg");
+    background-image: url("./Images1/NSBE.jpg");
     background-color: black;
     background-attachment: fixed;
     background-size: 100vw auto;
