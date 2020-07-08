@@ -30,7 +30,7 @@ a:hover {
 /* -------------Introduction-------------- */
 
 .Intro {
-    background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+    background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -87,7 +87,7 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Intro {
-        background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+        background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -114,7 +114,7 @@ header a{
 }
 @media only screen and (max-width: 600px) {
     .Intro {
-        background-image: url("./Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
+        background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -166,7 +166,7 @@ header a{
     }
     .whoIam ol{
         padding-left: 1vw;
-        background-image: url("./Images/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
+        background-image: url("./Images1/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
         background-size: 100% auto;
         padding-top: 3vw;
         padding-bottom: 3vw;
@@ -188,7 +188,7 @@ header a{
     }
     .whoIam ol{
         padding-left: 1vw;
-        background-image: url("./Images/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
+        background-image: url("./Images1/javier-reyes-qi2cD5oR_fE-unsplash.jpg");
         background-size: 100% auto;
         padding-top: 3vw;
         padding-bottom: 3vw;
@@ -274,7 +274,7 @@ header a{
         padding-bottom: 10px;
     }
     .academic {
-        background-image: url("./Images/fred-kearney-sAgXI-QXF1o-unsplash1.jpg");
+        background-image: url("./Images1/fred-kearney-sAgXI-QXF1o-unsplash1.jpg");
         background-color: rgb(39,39,39);
         background-size: 100% auto;
         background-attachment: fixed;
@@ -322,7 +322,7 @@ header a{
 }
 
 .Certificate {
-    background-image: url("./Images/IMG_3857.jpg");
+    background-image: url("./Images1/IMG_3857.jpg");
     background-attachment: fixed;
     background-size: 100vw 120vh;
 }
@@ -424,7 +424,7 @@ header a{
         height: 85%;
     }
     .Certificate {
-        background-image: url("./Images/IMG-20200301-WA0016.jpg");
+        background-image: url("./Images1/IMG-20200301-WA0016.jpg");
         background-color: black;
         background-attachment: fixed;
         background-size: 100vw auto;
@@ -436,7 +436,7 @@ header a{
 
 /* -------------Skill Set-------------- */
 .Skills {
-    background-image: url("./Images/ali-yahya-gPuAZZLAsqk-unsplash1.jpg");
+    background-image: url("./Images1/ali-yahya-gPuAZZLAsqk-unsplash1.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100vw auto;
@@ -501,7 +501,7 @@ header a{
 }
 
 .projects {
-    background-image: url("./Images/reza-namdari-ZgZsKFnSbEA-unsplash.jpg");
+    background-image: url("./Images1/reza-namdari-ZgZsKFnSbEA-unsplash.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
@@ -555,7 +555,7 @@ header a{
         font-size: 4.2vw;
     }
     .projects {
-        background-image: url("./Images/yash-menghani-ejLp_lrQvyI-unsplash.jpg");
+        background-image: url("./Images1/yash-menghani-ejLp_lrQvyI-unsplash.jpg");
         background-attachment: fixed;
         background-color: black;
         background-repeat: no-repeat;
@@ -572,7 +572,7 @@ header a{
 
 .contacts {
     color: white;
-    background-image: url("./Images/giorgio-trovato-_geAgtjqLzY-unsplash.jpg");
+    background-image: url("./Images1/giorgio-trovato-_geAgtjqLzY-unsplash.jpg");
     background-size: 100vw, auto;
     background-position: center;
     background-attachment: fixed;
@@ -647,7 +647,7 @@ header a{
         opacity: 0.8;
     }
     .contacts {
-        background-image: url("./Images/lilibeth-bustos-linares-xHpy6nS7z1A-unsplash.jpg");
+        background-image: url("./Images1/lilibeth-bustos-linares-xHpy6nS7z1A-unsplash.jpg");
         background-size: 100vw auto;
         background-position: bottom;
         background-repeat: no-repeat;
