@@ -323,8 +323,12 @@ header a{
 
 .Certificate {
     background-image: url("./Images1/IMG_3857.jpg");
+    background-color: black;
     background-attachment: fixed;
-    background-size: 100vw 120vh;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 .Certificate blockquote{
     background-color: black;
