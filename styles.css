@@ -16,8 +16,7 @@ html {
 body {
     padding: 0px;
     margin: 0px;
-    font-family: "Palatino Linotype", "Book Antiq
-        ua", Palatino, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 a {
@@ -323,7 +322,7 @@ header a{
 }
 
 .Certificate {
-    background-image: url("./Images1/NSBE.jpg");
+    background-image: url("./Images1/IMG_3857.jpg");
     background-color: black;
     background-attachment: fixed;
     background-size: 100vw auto;
@@ -624,9 +623,6 @@ header a{
     margin-left: 2.5vw;
 }
 
-.contacts #subject {
-    width: 600px;
-}
 .contacts #message {
     width: 600px;
 }
@@ -691,11 +687,12 @@ header a{
         text-align: center;
     }
     .contacts input {
-        padding: 20px;
+        padding: 10px;
         opacity: 0.8;
         margin-top: 20px;
         color: black;
     }
+
     .contacts #submit {
         margin-left: 40vw;
         padding: 2vw;
@@ -731,12 +728,4 @@ header ul {
 header li a {
     color: white;
     text-decoration: none;
-}
-
-/* -------------Footer-------------- */
-footer {
-    background-color: HoneyDew;
-    color: black;
-    padding: 30px;
-    align-content: center;
 }
