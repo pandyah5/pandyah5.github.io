@@ -651,7 +651,7 @@ header a{
     .contacts {
         background-image: url("./Images1/Webp.net-resizeimage.webp");
         background-size: 100vw auto;
-        background-position: bottom;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
