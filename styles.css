@@ -576,10 +576,11 @@ header a{
 
 .contacts {
     color: white;
-    background-image: url("./Images1/giorgio-trovato-_geAgtjqLzY-unsplash.webp");
+    background-image: url("./Images1/Webp.net-resizeimage.webp");
     background-size: 100vw, auto;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -648,7 +649,7 @@ header a{
         opacity: 0.8;
     }
     .contacts {
-        background-image: url("./Images1/lilibeth-bustos-linares-xHpy6nS7z1A-unsplash.webp");
+        background-image: url("./Images1/Webp.net-resizeimage.webp");
         background-size: 100vw auto;
         background-position: bottom;
         background-repeat: no-repeat;
