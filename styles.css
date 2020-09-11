@@ -244,6 +244,7 @@ header a{
     margin: 0px;
     padding-right: 0px;
     padding-left: 20px;
+    border-top: 1px ridge gray;
 }
 .academic_list .date {
     padding-right: 0px;
