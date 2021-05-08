@@ -58,7 +58,7 @@ a:hover {
     margin-right: 15vw;
     margin-bottom: 13vw;
 }
-.Intro ul {
+.Intro header ul {
     margin-left: 15vw;
     margin-right: 15vw;
     border-style: outset;
@@ -87,7 +87,7 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Intro {
-        background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.webp");
+        background-image: url("./Images1/code.jfif");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -114,7 +114,7 @@ header a{
 }
 @media only screen and (max-width: 600px) {
     .Intro {
-        background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.webp");
+        background-image: url("./Images1/city.jfif");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
