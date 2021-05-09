@@ -88,7 +88,7 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Intro {
-        background-image: url("./Images1/nature.jfif");
+        background-image: url("./Images1/wall.jfif");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -143,7 +143,7 @@ header a{
 
 /* -------------About Me-------------- */
 .whoIam {
-    background-image: url("./Images1/Toronto.jpg");
+    background-image: url("./Images1/wood.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
@@ -577,6 +577,10 @@ header a{
 }
 #Black_space {
     background-color: black;
+    background-image: url("./Images1/color.jpg");
+    background-attachment: fixed;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
 }
 
 /* -------------Contact-------------- */
