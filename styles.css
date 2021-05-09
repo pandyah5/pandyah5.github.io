@@ -88,12 +88,12 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Intro {
-        background-image: url("./Images1/wall.jfif");
+        background-image: url("./Images1/city_sq.jfif");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100vw auto;
+        background-size: 100vw 100vh;
     }
     .Intro header{
         font-size: 5vw;
@@ -120,7 +120,7 @@ header a{
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100vw auto;
+        background-size: 100vw 100vh;
     }
     .Intro header{
         font-size: 4vw;
@@ -480,6 +480,7 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Skills{
+        background-image: url("./Images1/coffee_long.jfif");
         background-attachment: fixed;
         background-size: 100vw auto;
         background-position: bottom;
@@ -490,6 +491,7 @@ header a{
 }
 @media only screen and (max-width: 600px) {
     .Skills{
+        background-image: url("./Images1/coffee_long.jfif");
         background-attachment: fixed;
         background-size: 100vw auto;
         background-position: bottom;
@@ -576,8 +578,9 @@ header a{
     }
 }
 #Black_space {
+    background-image: url("./Images1/color.png");
     background-color: black;
-    background-image: url("./Images1/color.jpg");
+    background-position: center;
     background-attachment: fixed;
     background-size: 100vw auto;
     background-repeat: no-repeat;
