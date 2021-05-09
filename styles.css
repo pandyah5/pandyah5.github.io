@@ -30,7 +30,7 @@ a:hover {
 /* -------------Introduction-------------- */
 
 .Intro {
-    background-image: url("./Images1/sergey-zolkin-_UeY8aTI6d0-unsplash.webp");
+    background-image: url("./Images1/wall.jfif");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -68,9 +68,10 @@ a:hover {
 
 
 #github {
-    margin-right: 49vw;
+    margin-right: 43vw;
     padding-right: 20px;
 }
+
 #linkedin {
     margin-left: 42vw;
 }
@@ -87,7 +88,7 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .Intro {
-        background-image: url("./Images1/code.jfif");
+        background-image: url("./Images1/nature.jfif");
         background-color: black;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -142,9 +143,10 @@ header a{
 
 /* -------------About Me-------------- */
 .whoIam {
-    background-color: black;
+    background-image: url("./Images1/Toronto.jpg");
     background-repeat: no-repeat;
-    background-size: 1500px 2000px;
+    background-attachment: fixed;
+    background-size: 100% auto;
     padding-left: 90px;
     color: white;
     font-size: 21px;
@@ -154,6 +156,8 @@ header a{
 }
 @media only screen and (max-width: 1400px) {
     .whoIam {
+        background-image: url("./Images1/black.png");
+        background-size: 100% 1500px;
         padding-left: 0;
         font-size: 4vw;
     }
@@ -166,7 +170,7 @@ header a{
     }
     .whoIam ol{
         padding-left: 1vw;
-        background-image: url("./Images1/javier-reyes-qi2cD5oR_fE-unsplash.webp");
+        background-image: url("./Images1/rock.jfif");
         background-size: 100% auto;
         padding-top: 3vw;
         padding-bottom: 3vw;
@@ -175,6 +179,8 @@ header a{
 }
 @media only screen and (max-width: 600px) {
     .whoIam {
+        background-image: url("./Images1/black.png");
+        background-size: 100% 1500px;
         padding-left: 0;
         font-size: 4vw;
     }
@@ -188,7 +194,7 @@ header a{
     }
     .whoIam ol{
         padding-left: 1vw;
-        background-image: url("./Images1/javier-reyes-qi2cD5oR_fE-unsplash.webp");
+        background-image: url("./Images1/rock.jfif");
         background-size: 100% auto;
         padding-top: 3vw;
         padding-bottom: 3vw;

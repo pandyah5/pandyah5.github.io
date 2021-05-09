@@ -27,20 +27,40 @@
         }
         </style>
         <style>
-            #Role_message {
-                font-size: 90px;
+            .Role_message {
+                font-size: 70px;
                 font-family: sans-serif;
+                width: 100%;
                 text-align: center;
-                margin-top: 0px;
-                padding-top: 200px;
+                display: flex !important;
+                flex-flow: column;
+                margin: 0px;
+                justify-content: center;
+                align-items: center;
+            }
+            .typeText{
+                margin: 0px !important;
+                color: Cyan;
+            }
+            .textAbove{
+                margin: 0px !important;
+                margin-top: 10vh !important;
+                padding-top: 2vh;
+            }
+            .typeText::after {
+              content: "|";
+              animation: none;
+            }
+            .showAnim.typeText::after {
+              animation: blink 1s step-end infinite;
+            }
+            @keyframes blink {
+              0%, 100% {opacity: 1;}
+              50% {opacity: 0;}
             }
             @media only screen and (max-width: 600px) {
-                #Role_message {
-                    font-size: 15vw;
-                    font-family: sans-serif;
-                    text-align: center;
-                    margin-top: 0px;
-                    padding-top: 12vh;
+                .Role_message {
+                    font-size: 7.5vw;
                 }
             }
         </style>
@@ -74,10 +94,16 @@
                 </ul>
             </header>
             <br>
-            <a href="https://github.com/pandyah5"><img  id="github" src=".\Logo\GitHub-Mark\GitHub-Mark\PNG\GitHub-Mark-Light-120px-plus.png" alt="GitHub" width=38 height=38 align='right'></a>
-            <a href="https://linkedIn.com/in/hetav-pandya"><img id="linkedin" src=".\Logo\LinkedIn-Logos\LinkedIn-Logos\LI-In-Bug.png" alt="Linkedin" width=45 height=38 align='center'></a>
-            <h1 id="Role_message"> <strong> Software Developer; </strong> </h1>
+                <a href="https://github.com/pandyah5"><img  id="github" src=".\Logo\GitHub-Mark\GitHub-Mark\PNG\GitHub-Mark-Light-120px-plus.png" alt="GitHub" width=38 height=38 align='right'></a>
+                <a href="https://linkedIn.com/in/hetav-pandya"><img id="linkedin" src=".\Logo\LinkedIn-Logos\LinkedIn-Logos\LI-In-Bug.png" alt="Linkedin" width=45 height=38 align='center'></a>
+            <h1 class="Role_message">
+                <p class = "textAbove">
+                    I'm a &nbsp
+                </p>
+                <p class = "typeText"></p>
+            </h1>
         </section>
+        <script type='text/javascript' src="D:/My website/pandyah5.github.io/animation.js"></script>
     <p id="Black_space">
         <br>
         <br>
@@ -115,7 +141,7 @@
                 <li> Apart from tech I love EDM's, coffee, and table tennis (does not mean that I am good at it!)</li>
                 <li> If you prefer more professional descriptions, here's my <a href="./documents/Hetav Pandya Resume - R7.pdf">resume</a>.</li>
             </ol>
-            <img src="./Images1/WebLogoCrop.png" alt="Logo" width=10% height=40% class=center>
+            <!-- <img src="./Images1/WebLogoCrop.png" alt="Logo" width=10% height=40% class=center> -->
         </p>
     </section>
     <p id="Black_space">
