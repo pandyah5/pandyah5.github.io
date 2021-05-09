@@ -144,6 +144,8 @@ header a{
 /* -------------About Me-------------- */
 .whoIam {
     background-image: url("./Images1/city_big.jpg");
+    background-color: black;
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
