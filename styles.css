@@ -30,7 +30,7 @@ a:hover {
 /* -------------Introduction-------------- */
 
 .Intro {
-    background-image: url("./Images1/wall.jfif");
+    background-image: url("./Images1/Toronto.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -143,7 +143,7 @@ header a{
 
 /* -------------About Me-------------- */
 .whoIam {
-    background-image: url("./Images1/wood.jpg");
+    background-image: url("./Images1/city_big.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
@@ -447,7 +447,7 @@ header a{
 
 /* -------------Skill Set-------------- */
 .Skills {
-    background-image: url("./Images1/ezgif.com-gif-maker.webp");
+    background-image: url("./Images1/city_long.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100vw auto;
@@ -514,7 +514,7 @@ header a{
 }
 
 .projects {
-    background-image: url("./Images1/reza-namdari-ZgZsKFnSbEA-unsplash.webp");
+    background-image: url("./Images1/city_1.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
@@ -540,10 +540,13 @@ header a{
     font-size: 22px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-bottom: 50px;
+    padding-bottom: 5vh;
+    padding-top: 4vh;
     align-items: center;
     text-align: justify;
     padding-right: 10px;
-
+    background-color: black;
+    opacity: 0.9;
 }
 .projects img{
     padding-left: 50px;
@@ -578,7 +581,7 @@ header a{
     }
 }
 #Black_space {
-    background-image: url("./Images1/color.png");
+    background-image: url("./Images1/pattern.jpg");
     background-color: black;
     background-position: center;
     background-attachment: fixed;
@@ -590,7 +593,7 @@ header a{
 
 .contacts {
     color: white;
-    background-image: url("./Images1/Webp.net-resizeimage.webp");
+    background-image: url("./Images1/dundas.jpg");
     background-size: 100vw, auto;
     background-position: center;
     background-attachment: fixed;
@@ -611,8 +614,6 @@ header a{
 .contacts p {
     text-align: center;
     font-size: 26px;
-    background-color: black;
-    opacity: 0.9;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-bottom: 100px;
 }
