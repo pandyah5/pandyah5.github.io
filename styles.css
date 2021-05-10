@@ -49,7 +49,7 @@ a:hover {
 .Intro header{
     font-size: 30px;
     text-align: center;
-    display: flex;
+    /*display: flex;*/
     height: 80px;
     align-items: center !important;
     margin-top: 0px;
