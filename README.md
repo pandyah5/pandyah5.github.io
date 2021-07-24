@@ -2,7 +2,7 @@
 
 This is my personal website that contains my online portfolio.
 
-You can visit it here: https://hetavpandya.me
+You can visit it here: https://pandyah5.github.io/
 
 The website lists:
 
