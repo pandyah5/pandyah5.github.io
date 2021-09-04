@@ -1,5 +1,5 @@
 var typeText = document.querySelector(".typeText")
-var textToBeTypedArr = [" Software Developer", " Data Scientist", " Machine Learning Enthusiast", " Student.. of and for life"]
+var textToBeTypedArr = [" Software Developer", " Data Scientist", " Machine Learning Enthusiast"]
 var index = 0, isAdding = true, textToBeTypedIndex = 0
 
 function playAnim() {

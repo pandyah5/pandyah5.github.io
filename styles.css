@@ -96,11 +96,14 @@ header a{
         background-size: 100vw 100vh;
     }
     .Intro header{
-        font-size: 5vw;
+        font-size: 2vw;
         margin-left: 10vw;
         margin-right: 10vw;
         margin-bottom: 15vw;
-        padding-top: 10vw;
+        padding-top: 6vw;
+    }
+    .Intro .Role_message {
+        font-size: 4.5vw;
     }
     .Intro header ol {
         margin-top: 20px;
@@ -161,10 +164,10 @@ header a{
         background-image: url("./Images1/black.png");
         background-size: 100% 1500px;
         padding-left: 0;
-        font-size: 4vw;
+        font-size: 2vw;
     }
     .whoIam li{
-        background-color: gray;
+        background-color: DimGrey;
         opacity: 0.7;
         margin: 20px;
         line-height: 50px;
@@ -489,6 +492,7 @@ header a{
     }
     .Skills .skill_list {
         line-height: 70px;
+        font-size: 2.5vw;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -560,7 +564,7 @@ header a{
         width: 80%;
         padding: 20px;
         height: auto;
-        margin-left: 5vw;
+        margin-left: 8vw;
         margin-right: 10vw;
         border-radius: 0%;
         padding-bottom: 20px;
@@ -570,7 +574,9 @@ header a{
         padding: 10px;
         background-color: black;
         opacity: 0.6;
-        font-size: 4.2vw;
+        font-size: 2.2vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
     }
     .projects {
         background-image: url("./Images1/yash-menghani-ejLp_lrQvyI-unsplash.webp");
@@ -644,6 +650,16 @@ header a{
 .contacts #message {
     width: 600px;
 }
+.contacts .fcf-label{
+    font-size: 2vw;
+    justify-content: center;
+}
+.contacts .fcf-form-control{
+    margin: auto;
+}
+.contacts .fcf-btn-block{
+    margin: auto;
+}
 .contacts #submit {
     margin-left: 700px;
     padding: 20px;
@@ -678,32 +694,28 @@ header a{
         padding: 20px;
         margin-bottom: 80px;
     }
-    .contacts #nametag {
-        width: 70vw;
+    /* .contacts #nametag {
         margin-left: 9% !important;
         margin-right: 15% !important;
         text-align: center;
     }
 
     .contacts #email {
-        width: 70vw;
         margin-left: 9% !important;
         margin-right: 15% !important;
         text-align: center;
     }
 
     .contacts #subject {
-        width: 70vw;
         margin-left: 9% !important;
         margin-right: 15% !important;
         text-align: center;
     }
     .contacts #message {
-        width: 70vw;
         margin-left: 9% !important;
         margin-right: 15% !important;
         text-align: center;
-    }
+    } */
     .contacts input {
         padding: 10px;
         opacity: 0.8;
@@ -726,10 +738,20 @@ header a{
         background-color: black;
         opacity: 0.7;
         padding: 8px !important;
-        font-size: 3.5vw !important;
+        font-size: 2vw !important;
         width: 80% !important;
         margin-top: 19% !important;
         margin-bottom: 2% !important;
+    }
+    .contacts .fcf-label{
+        font-size: 2vw;
+        justify-content: center;
+    }
+    .contacts .fcf-form-control{
+        margin: auto;
+    }
+    .contacts .fcf-btn-block{
+        margin: auto;
     }
 }
 
